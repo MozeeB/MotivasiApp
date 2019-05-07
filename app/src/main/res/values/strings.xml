@@ -1,5 +1,20 @@
 <resources>
-    <string name="app_name">Motivasi App</string>
+    <string name="app_name">Motivation App</string>
     <string name="action_settings">Settings</string>
     <string name="permiss">By Signing up you accept the Terms of Service and Privacy Police</string>
+    <string name="motivation_app">Motivation App</string>
+    <string name="already_with_us">Already with us?</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_up_to_continue">Sign up to continue</string>
+    <string name="name">Name</string>
+    <string name="email">Address</string>
+    <string name="judul">Title</string>
+    <string name="motivasi">Motivation</string>
+    <string name="penulis">Writer</string>
+    <string name="tanggal">Date</string>
+    <string name="tambahkan">Add</string>
+    <string name="oleh">By :</string>
+    <string name="daftar">Sign Up</string>
 </resources>

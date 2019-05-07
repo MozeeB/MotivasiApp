@@ -28,7 +28,7 @@
                 android:layout_height="wrap_content"
                 android:inputType="textPersonName"
                 android:id="@+id/edtUserLogin"
-                android:hint="Username"/>
+                android:hint="@string/username"/>
     </android.support.design.widget.TextInputLayout>
 
     <android.support.design.widget.TextInputLayout
@@ -53,11 +53,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="textPassword"
-                android:hint="Password"/>
+                android:hint="@string/password"/>
     </android.support.design.widget.TextInputLayout>
 
     <Button
-            android:text="Login"
+            android:text="@string/login"
             android:layout_width="350dp"
             android:layout_height="70dp"
             android:id="@+id/btn_login_login"
