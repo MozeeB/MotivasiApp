@@ -22,18 +22,15 @@ class LoginPresenter2 (model : LoginContruct2.View) : LoginContruct2.Presenter {
         json.put("username", username)
         json.put("password", password)
 
-        AndroidNetworking.post(GlobalActivity.BASE_URL + "login.php")
+        AndroidNetworking.post(GlobalActivity.BASE_URL + "login")
             .setPriority(Priority.HIGH)
             .addBodyParameter(json)
             .build()
             .getAsJSONObject(object : JSONObjectRequestListener {
                 override fun onResponse(response: JSONObject?) {
-                    if (response != null) {
-                        if (response.getBoolean("result")){
-                            viewmodel?.onSuccess(response.toString())
+                    viewmodel?.onSuccess(response.toString())
 
-                        }
-                    }
+
                 }
 
                 override fun onError(anError: ANError?) {

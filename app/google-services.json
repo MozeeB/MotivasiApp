@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "558695304699",
+    "firebase_url": "https://motivation-app-330c0.firebaseio.com",
+    "project_id": "motivation-app-330c0",
+    "storage_bucket": "motivation-app-330c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:558695304699:android:4eaff8dc4360be15",
+        "android_client_info": {
+          "package_name": "com.mozeeb.motivasiapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "558695304699-tnu2r4a372k7kv460qhp0cgvel89p23n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mozeeb.motivasiapp",
+            "certificate_hash": "1feb7b6e938c69a1927ab0f7a73e890e822319cb"
+          }
+        },
+        {
+          "client_id": "558695304699-ffgagocgfti1c211ufin2vom4ic5g7tg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBs59pKyvI7qRnxm-lUv_HuGJ257niguGQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "558695304699-ffgagocgfti1c211ufin2vom4ic5g7tg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
